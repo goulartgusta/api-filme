@@ -1,11 +1,12 @@
 package br.com.almavivasolutions.api_filme.models;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class Distribuidora {
 	private String nome;
 	private List<String> filmesDistribuidos;
-	private Integer anoDeFundacao;
+	private LocalDate anoFundacao;
 
 	public String getNome() {
 		return nome;
@@ -23,12 +24,12 @@ public class Distribuidora {
 		this.filmesDistribuidos = filmesDistribuidos;
 	}
 
-	public Integer getAnoDeFundacao() {
-		return anoDeFundacao;
+	public LocalDate getAnoFundacao() {
+		return anoFundacao;
 	}
 
-	public void setAnoDeFundacao(Integer anoDeFundacao) {
-		this.anoDeFundacao = anoDeFundacao;
+	public void setAnoFundacao(LocalDate anoFundacao) {
+		this.anoFundacao = anoFundacao;
 	}
 
 }

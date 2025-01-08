@@ -1,12 +1,12 @@
 package br.com.almavivasolutions.api_filme.models;
 
-import java.util.ArrayList;
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
+
 
 public class Ator {
 	private String nome;
-	private Date datNascimento;
+	private LocalDate dataNascimento;
 	private List<String> filmesAtuados;
 	private Double cacheMedioPorFilme;
 
@@ -18,12 +18,12 @@ public class Ator {
 		this.nome = nome;
 	}
 
-	public Date getDataNascimento() {
-		return datNascimento;
+	public LocalDate getDataNascimento() {
+		return dataNascimento;
 	}
 
-	public void setDataNascimento(Date dataNascimento) {
-		this.datNascimento = dataNascimento;
+	public void setDataNascimento(LocalDate dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 
 	public Double getCacheMedioPorFilme() {
@@ -38,7 +38,7 @@ public class Ator {
 		return filmesAtuados;
 	}
 
-	public void setFilmesAtuados(ArrayList<String> filmesAtuados) {
+	public void setFilmesAtuados(List<String> filmesAtuados) {
 		this.filmesAtuados = filmesAtuados;
 	}
 }

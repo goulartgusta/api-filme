@@ -1,10 +1,12 @@
 package br.com.almavivasolutions.api_filme.models;
 
+import java.util.List;
+
 public class Personagem {
 	private String nome;
 	private String papel;
 	private String genero;
-	private Ator ator;
+	private List<Ator> ator;
 
 	public String getNome() {
 		return nome;
@@ -30,11 +32,11 @@ public class Personagem {
 		this.genero = genero;
 	}
 
-	public Ator getAtor() {
+	public List<Ator> getAtor() {
 		return ator;
 	}
 
-	public void setAtor(Ator ator) {
+	public void setAtor(List<Ator> ator) {
 		this.ator = ator;
 	}
 }

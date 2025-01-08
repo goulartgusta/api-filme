@@ -7,7 +7,7 @@ public class Roteiro {
 	private String enredo;
 	private String tema;
 	private String contextoHistorico;
-	private List<Personagem> personagens;
+	private List<Personagem> personagem;
 
 	public String getTitulo() {
 		return titulo;
@@ -42,10 +42,10 @@ public class Roteiro {
 	}
 
 	public List<Personagem> getPersonagens() {
-		return personagens;
+		return personagem;
 	}
 
 	public void setPersonagens(List<Personagem> personagens) {
-		this.personagens = personagens;
+		this.personagem = personagens;
 	}
 }

@@ -2,7 +2,7 @@ package br.com.almavivasolutions.api_filme.models;
 
 public class Patrocinador {
 	private String nome;
-	private Double valorPatrocinio;
+	private Double valorPatrocinado;
 	private String projetoPatrocinio;
 	private Integer mesesPatrocinio;
 
@@ -14,12 +14,12 @@ public class Patrocinador {
 		this.nome = nome;
 	}
 
-	public Double getValorPatrocinio() {
-		return valorPatrocinio;
+	public Double getValorPatrocinado() {
+		return valorPatrocinado;
 	}
 
-	public void setValorPatrocinio(Double valorPatrocinio) {
-		this.valorPatrocinio = valorPatrocinio;
+	public void setValorPatrocinado(Double valorPatrocinado) {
+		this.valorPatrocinado = valorPatrocinado;
 	}
 
 	public String getProjetoPatrocinio() {

@@ -5,7 +5,7 @@ import java.util.List;
 public class Proprietario {
 	private String nome;
 	private String paisOrigem;
-	private List<Produtora> produtoras;
+	private List<String> produtoras;
 	private Double receitaAnual;
 
 	public String getNome() {
@@ -24,11 +24,11 @@ public class Proprietario {
 		this.paisOrigem = paisOrigem;
 	}
 
-	public List<Produtora> getProdutoras() {
+	public List<String> getProdutoras() {
 		return produtoras;
 	}
 
-	public void setProdutoras(List<Produtora> produtoras) {
+	public void setProdutoras(List<String> produtoras) {
 		this.produtoras = produtoras;
 	}
 
