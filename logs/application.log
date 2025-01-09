@@ -1,726 +1,88 @@
-2025-01-08 14:20:41 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 30372 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 14:20:41 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
+2025-01-09 08:24:46 [RMI TCP Connection(47)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2025-01-09 08:24:46 [RMI TCP Connection(47)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
+				Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-09 08:24:46 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8080"]
+2025-01-09 08:24:46 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
+				Graceful shutdown complete
+2025-01-09 08:24:46 [RMI TCP Connection(47)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8080"]
+2025-01-09 08:48:51 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
+				Starting ApiFilmeApplication using Java 21.0.5 with PID 51194 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
+2025-01-09 08:48:51 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
 				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 14:20:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+2025-01-09 08:48:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
 				Tomcat initialized with port 8080 (http)
-2025-01-08 14:20:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+2025-01-09 08:48:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
 				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:20:41 [main] INFO  o.a.catalina.core.StandardService -
+2025-01-09 08:48:51 [main] INFO  o.a.catalina.core.StandardService -
 				Starting service [Tomcat]
-2025-01-08 14:20:41 [main] INFO  o.a.catalina.core.StandardEngine -
+2025-01-09 08:48:51 [main] INFO  o.a.catalina.core.StandardEngine -
 				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 14:20:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+2025-01-09 08:48:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
 				Initializing Spring embedded WebApplicationContext
-2025-01-08 14:20:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 530 ms
-2025-01-08 14:20:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+2025-01-09 08:48:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 763 ms
+2025-01-09 08:48:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
 				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:20:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+2025-01-09 08:48:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
 				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 14:20:42 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.979 seconds (process running for 1.337)
-2025-01-08 14:21:08 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+2025-01-09 08:48:52 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
+				Started ApiFilmeApplication in 1.39 seconds (process running for 2.008)
+2025-01-09 08:53:13 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
 				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 14:21:08 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+2025-01-09 08:53:13 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
 				Initializing Servlet 'dispatcherServlet'
-2025-01-08 14:21:08 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+2025-01-09 08:53:13 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
 				Completed initialization in 1 ms
-2025-01-08 14:28:01 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `br.com.almavivasolutions.api_filme.models.Ator` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 14:28:05 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `br.com.almavivasolutions.api_filme.models.Ator` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 14:34:37 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `br.com.almavivasolutions.api_filme.models.Ator` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 14:35:20 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 14:35:20 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 14:35:20 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:35:20 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 14:35:20 [RMI TCP Connection(19)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:35:24 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 30982 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 14:35:24 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 14:35:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 14:35:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:35:24 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 14:35:24 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 14:35:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 14:35:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 461 ms
-2025-01-08 14:35:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:35:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 14:35:24 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.961 seconds (process running for 1.377)
-2025-01-08 14:36:03 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 14:36:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 14:36:03 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 0 ms
-2025-01-08 14:36:25 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `br.com.almavivasolutions.api_filme.models.Ator` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 14:38:35 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `br.com.almavivasolutions.api_filme.models.Ator` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 14:39:51 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `br.com.almavivasolutions.api_filme.models.Ator` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 14:40:27 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 14:40:27 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 14:40:27 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:40:27 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 14:40:27 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:41:07 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 31396 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 14:41:07 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 14:41:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 14:41:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:41:08 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 14:41:08 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 14:41:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 14:41:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 454 ms
-2025-01-08 14:41:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:41:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 14:41:08 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.877 seconds (process running for 1.301)
-2025-01-08 14:41:12 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 14:41:12 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 14:41:12 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 14:42:41 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:43:17 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:43:54 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 14:43:54 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 14:43:54 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:43:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 14:43:54 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:43:56 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 31582 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 14:43:56 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 14:43:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 14:43:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:43:56 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 14:43:56 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 14:43:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 14:43:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 477 ms
-2025-01-08 14:43:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:43:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 14:43:56 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.884 seconds (process running for 1.278)
-2025-01-08 14:44:00 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 14:44:00 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 14:44:00 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 0 ms
-2025-01-08 14:44:00 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "1912-05-08": not a valid `java.lang.Integer` value]
-2025-01-08 14:46:08 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "1912-05-08": not a valid `java.lang.Integer` value]
-2025-01-08 14:46:12 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "1912-05-08": not a valid `java.lang.Integer` value]
-2025-01-08 14:46:52 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "1912-05-08": not a valid `java.lang.Integer` value]
-2025-01-08 14:46:55 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 14:46:55 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 14:46:55 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:46:55 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 14:46:55 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:46:57 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 31799 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 14:46:57 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 14:46:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 14:46:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:46:58 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 14:46:58 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 14:46:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 14:46:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 438 ms
-2025-01-08 14:46:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:46:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 14:46:58 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.852 seconds (process running for 1.223)
-2025-01-08 14:47:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 14:47:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 14:47:13 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:47:13 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 14:47:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:47:14 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 31899 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 14:47:14 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 14:47:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 14:47:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:47:15 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 14:47:15 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 14:47:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 14:47:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 482 ms
-2025-01-08 14:47:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 14:47:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 14:47:15 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.896 seconds (process running for 1.303)
-2025-01-08 14:47:20 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 14:47:20 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 14:47:20 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 14:49:22 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:49:36 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:49:39 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:49:42 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:49:45 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:51:02 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:51:21 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:51:47 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:52:10 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:52:25 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:53:18 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:53:19 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:53:19 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 14:55:57 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Produtora>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 15:00:45 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `br.com.almavivasolutions.api_filme.models.Produtora` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Syncopy')]
-2025-01-08 15:01:13 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `br.com.almavivasolutions.api_filme.models.Produtora` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Syncopy')]
-2025-01-08 15:01:16 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:01:16 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:01:16 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:01:16 [RMI TCP Connection(17)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:18 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 32648 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:01:18 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:01:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:01:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:19 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:01:19 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:01:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:01:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 523 ms
-2025-01-08 15:01:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:01:19 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.945 seconds (process running for 1.352)
-2025-01-08 15:01:31 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:01:31 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:01:31 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:01:31 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:32 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 32755 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:01:32 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:01:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:01:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:33 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:01:33 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:01:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:01:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 455 ms
-2025-01-08 15:01:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:01:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:01:33 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.869 seconds (process running for 1.262)
-2025-01-08 15:01:36 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 15:01:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 15:01:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 15:01:36 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Array value (token `JsonToken.START_ARRAY`)]
-2025-01-08 15:02:22 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:02:22 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:02:22 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:02:22 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:02:22 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:02:23 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 32912 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:02:23 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:02:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:02:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:02:23 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:02:23 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:02:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:02:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 452 ms
-2025-01-08 15:02:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:02:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:02:24 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.853 seconds (process running for 1.246)
-2025-01-08 15:02:26 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 15:02:26 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 15:02:26 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 0 ms
-2025-01-08 15:02:26 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Patrocinador>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 15:03:56 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Patrocinador>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 15:04:06 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:04:06 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:04:06 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:04:06 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:04:06 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:04:07 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 33017 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:04:07 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:04:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:04:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:04:07 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:04:07 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:04:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:04:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 463 ms
-2025-01-08 15:04:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:04:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:04:07 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.87 seconds (process running for 1.259)
-2025-01-08 15:04:11 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 15:04:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 15:04:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 15:04:11 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<br.com.almavivasolutions.api_filme.models.Patrocinador>` from Object value (token `JsonToken.START_OBJECT`)]
-2025-01-08 15:07:19 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:07:19 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:07:19 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:07:19 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:07:19 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:07:22 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 33224 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:07:22 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:07:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:07:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:07:23 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:07:23 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:07:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:07:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 433 ms
-2025-01-08 15:07:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:07:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:07:23 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.853 seconds (process running for 1.345)
-2025-01-08 15:07:32 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 15:07:32 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 15:07:32 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 15:39:15 [RMI TCP Connection(35)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:39:15 [RMI TCP Connection(35)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:39:15 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:39:15 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:39:15 [RMI TCP Connection(35)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:39:17 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 35770 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:39:17 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:39:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:39:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:39:17 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:39:17 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:39:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:39:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 480 ms
-2025-01-08 15:39:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:39:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:39:17 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.937 seconds (process running for 1.372)
-2025-01-08 15:45:08 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 15:45:08 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 15:45:08 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:45:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 15:45:08 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:45:10 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 36558 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 15:45:10 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 15:45:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 15:45:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:45:10 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 15:45:10 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 15:45:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 15:45:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 457 ms
-2025-01-08 15:45:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 15:45:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 15:45:10 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.894 seconds (process running for 1.334)
-2025-01-08 15:45:44 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 15:45:44 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 15:45:44 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 15:47:36 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 15:48:09 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 15:54:19 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 15:58:21 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 15:58:29 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 16:20:37 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 16:20:37 [RMI TCP Connection(37)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 16:20:37 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 16:20:37 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 16:20:37 [RMI TCP Connection(37)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 16:20:38 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 38844 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 16:20:38 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 16:20:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 16:20:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 16:20:39 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 16:20:39 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 16:20:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 16:20:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 491 ms
-2025-01-08 16:20:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 16:20:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 16:20:39 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.921 seconds (process running for 1.372)
-2025-01-08 16:20:45 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 16:20:45 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 16:20:45 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 16:21:14 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 16:21:43 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 16:21:54 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 16:27:00 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
-				Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'indiceFilme' for method parameter type Integer is not present]
-2025-01-08 17:03:16 [RMI TCP Connection(47)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 17:03:16 [RMI TCP Connection(47)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 17:03:16 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:03:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 17:03:16 [RMI TCP Connection(47)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:03:17 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 42456 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 17:03:17 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 17:03:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 17:03:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:03:18 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 17:03:18 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 17:03:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 17:03:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 496 ms
-2025-01-08 17:03:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:03:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 17:03:18 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.929 seconds (process running for 1.375)
-2025-01-08 17:03:37 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 17:03:37 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Initializing Servlet 'dispatcherServlet'
-2025-01-08 17:03:37 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 0 ms
-2025-01-08 17:03:37 [http-nio-8080-exec-1] INFO  b.c.a.api_filme.utils.ApiLogger -
+2025-01-09 08:53:13 [http-nio-8080-exec-2] INFO  b.c.a.api_filme.utils.ApiLogger -
 				Criando filme com ID: 1
-2025-01-08 17:03:41 [http-nio-8080-exec-3] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Criando filme com ID: 2
-2025-01-08 17:03:47 [http-nio-8080-exec-4] INFO  b.c.a.api_filme.utils.ApiLogger -
+2025-01-09 08:53:18 [http-nio-8080-exec-3] INFO  b.c.a.api_filme.utils.ApiLogger -
 				Listando todos os filmes.
-2025-01-08 17:04:11 [http-nio-8080-exec-5] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Atualizando filme com ID: 1
-2025-01-08 17:04:14 [http-nio-8080-exec-6] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Listando todos os filmes.
-2025-01-08 17:04:29 [http-nio-8080-exec-7] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Removendo filme com ID: 1
-2025-01-08 17:04:52 [http-nio-8080-exec-8] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Listando todos os filmes.
-2025-01-08 17:12:38 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+2025-01-09 09:23:35 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
 				Application shutdown requested.
-2025-01-08 17:12:38 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
+2025-01-09 09:23:35 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
 				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 17:12:38 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
+2025-01-09 09:23:35 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
 				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:12:38 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
+2025-01-09 09:23:35 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
 				Graceful shutdown complete
-2025-01-08 17:12:38 [RMI TCP Connection(13)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+2025-01-09 09:23:35 [RMI TCP Connection(38)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
 				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:12:39 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 43021 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 17:12:39 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
+2025-01-09 09:23:37 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
+				Starting ApiFilmeApplication using Java 21.0.5 with PID 54587 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
+2025-01-09 09:23:37 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
 				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 17:12:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+2025-01-09 09:23:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
 				Tomcat initialized with port 8080 (http)
-2025-01-08 17:12:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+2025-01-09 09:23:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
 				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:12:39 [main] INFO  o.a.catalina.core.StandardService -
+2025-01-09 09:23:38 [main] INFO  o.a.catalina.core.StandardService -
 				Starting service [Tomcat]
-2025-01-08 17:12:39 [main] INFO  o.a.catalina.core.StandardEngine -
+2025-01-09 09:23:38 [main] INFO  o.a.catalina.core.StandardEngine -
 				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 17:12:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+2025-01-09 09:23:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
 				Initializing Spring embedded WebApplicationContext
-2025-01-08 17:12:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 425 ms
-2025-01-08 17:12:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+2025-01-09 09:23:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1120 ms
+2025-01-09 09:23:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
 				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:12:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+2025-01-09 09:23:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
 				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 17:12:39 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.844 seconds (process running for 1.221)
-2025-01-08 17:15:24 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
-				Application shutdown requested.
-2025-01-08 17:15:24 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-08 17:15:24 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Pausing ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:15:24 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -
-				Graceful shutdown complete
-2025-01-08 17:15:24 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Stopping ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:15:25 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Starting ApiFilmeApplication using Java 21.0.5 with PID 43265 (/opt/dev/projects/api-filme/target/classes started by gustavo-goulart in /opt/dev/projects/api-filme)
-2025-01-08 17:15:25 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				No active profile set, falling back to 1 default profile: "default"
-2025-01-08 17:15:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat initialized with port 8080 (http)
-2025-01-08 17:15:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Initializing ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:15:25 [main] INFO  o.a.catalina.core.StandardService -
-				Starting service [Tomcat]
-2025-01-08 17:15:25 [main] INFO  o.a.catalina.core.StandardEngine -
-				Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-08 17:15:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
-				Initializing Spring embedded WebApplicationContext
-2025-01-08 17:15:25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
-				Root WebApplicationContext: initialization completed in 452 ms
-2025-01-08 17:15:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
-				Starting ProtocolHandler ["http-nio-8080"]
-2025-01-08 17:15:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
-				Tomcat started on port 8080 (http) with context path '/'
-2025-01-08 17:15:25 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
-				Started ApiFilmeApplication in 0.849 seconds (process running for 1.219)
-2025-01-08 17:15:36 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+2025-01-09 09:23:39 [main] INFO  b.c.a.api_filme.ApiFilmeApplication -
+				Started ApiFilmeApplication in 2.027 seconds (process running for 2.931)
+2025-01-09 09:23:46 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
 				Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-08 17:15:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
+2025-01-09 09:23:46 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
 				Initializing Servlet 'dispatcherServlet'
-2025-01-08 17:15:36 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -
-				Completed initialization in 1 ms
-2025-01-08 17:15:36 [http-nio-8080-exec-1] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Criando filme com ID: 2
-2025-01-08 17:15:41 [http-nio-8080-exec-3] INFO  b.c.a.api_filme.utils.ApiLogger -
+2025-01-09 09:23:46 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 2 ms
+2025-01-09 09:23:46 [http-nio-8080-exec-2] INFO  b.c.a.api_filme.utils.ApiLogger -
 				Criando filme com ID: 1
-2025-01-08 17:15:44 [http-nio-8080-exec-4] INFO  b.c.a.api_filme.utils.ApiLogger -
+2025-01-09 09:24:02 [http-nio-8080-exec-3] INFO  b.c.a.api_filme.utils.ApiLogger -
+				Criando filme com ID: 2
+2025-01-09 09:24:06 [http-nio-8080-exec-4] INFO  b.c.a.api_filme.utils.ApiLogger -
 				Listando todos os filmes.
-2025-01-08 17:15:54 [http-nio-8080-exec-5] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Atualizando filme com ID: 1
-2025-01-08 17:15:58 [http-nio-8080-exec-6] INFO  b.c.a.api_filme.utils.ApiLogger -
+2025-01-09 09:28:28 [http-nio-8080-exec-6] INFO  b.c.a.api_filme.utils.ApiLogger -
 				Listando todos os filmes.
-2025-01-08 17:16:01 [http-nio-8080-exec-7] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Removendo filme com ID: 1
-2025-01-08 17:16:05 [http-nio-8080-exec-8] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Listando todos os filmes.
-2025-01-08 17:17:03 [http-nio-8080-exec-9] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Buscando filme com ID: 1
-2025-01-08 17:17:11 [http-nio-8080-exec-10] INFO  b.c.a.api_filme.utils.ApiLogger -
-				Buscando filme com ID: 2
