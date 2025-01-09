@@ -3,114 +3,160 @@ package br.com.almavivasolutions.api_filme.models;
 import java.time.LocalDate;
 import java.util.List;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+
+@Entity
+@Table(name = "TB_FILME")
 public class Filme {
 
-	private Integer id;
-	private String nome;
-	private Integer duracaoMinuto;
-	private LocalDate dataLancamento;
-	private Classificacao classificacao;
-	private Roteiro roteiro;
-	private Diretor diretor;
-	private Distribuidora distribuidora;
-	private List<Produtora> produtora;
-	private List<Patrocinador> patrocinador;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "PK_FILME")
+    private Integer id;
 
-	public Filme() {
-	}
+    @NotNull
+    @Column(name = "NOME")
+    private String nome;
 
-	public Filme(Integer id, String nome, Integer duracaoMinuto, LocalDate dataLancamento, Classificacao classificacao,
-			Roteiro roteiro, Diretor diretor, Distribuidora distribuidora, List<Produtora> produtora,
-			List<Patrocinador> patrocinador) {
-		this.nome = nome;
-		this.duracaoMinuto = duracaoMinuto;
-		this.dataLancamento = dataLancamento;
-		this.classificacao = classificacao;
-		this.roteiro = roteiro;
-		this.diretor = diretor;
-		this.distribuidora = distribuidora;
-		this.produtora = produtora;
-		this.patrocinador = patrocinador;
-	}
+    @NotNull
+    @Column(name = "DURACAO_MINUTO")
+    private Integer duracaoMinuto;
 
-	public Integer getId() {
-		return id;
-	}
+    @NotNull
+    @Column(name = "DATA_LANCAMENTO")
+    private LocalDate dataLancamento;
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    @OneToOne
+    @JoinColumn(name = "FK_CLASSIFICACAO", nullable = false)
+    private Classificacao classificacao;
 
-	public String getNome() {
-		return nome;
-	}
+    @OneToOne
+    @JoinColumn(name = "FK_ROTEIRO", nullable = false)
+    private Roteiro roteiro;
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    @OneToOne
+    @JoinColumn(name = "FK_DIRETOR", nullable = false)
+    private Diretor diretor;
 
-	public Integer getDuracaoMinuto() {
-		return duracaoMinuto;
-	}
+    @ManyToMany
+    @JoinTable(
+        name = "TB_FILME_DISTRIBUIDORA",
+        joinColumns = @JoinColumn(name = "FK_FILME"),
+        inverseJoinColumns = @JoinColumn(name = "FK_DISTRIBUIDORA")
+    )
+    private List<Distribuidora> distribuidora;
 
-	public void setDuracaoMinuto(Integer duracaoMinuto) {
-		this.duracaoMinuto = duracaoMinuto;
-	}
+    @ManyToMany
+    @JoinTable(
+        name = "TB_FILME_PRODUTORA",
+        joinColumns = @JoinColumn(name = "FK_FILME"),
+        inverseJoinColumns = @JoinColumn(name = "FK_PRODUTORA")
+    )
+    private List<Produtora> produtora;
 
-	public LocalDate getDataLancamento() {
-		return dataLancamento;
-	}
+    @ManyToMany
+    @JoinTable(
+        name = "TB_FILME_PATROCINADOR",
+        joinColumns = @JoinColumn(name = "FK_FILME"),
+        inverseJoinColumns = @JoinColumn(name = "FK_PATROCINADOR")
+    )
+    private List<Patrocinador> patrocinador;
 
-	public void setDataLancamento(LocalDate dataLancamento) {
-		this.dataLancamento = dataLancamento;
-	}
+    public Filme() {}
 
-	public Classificacao getClassificacao() {
-		return classificacao;
-	}
+    public Filme(Integer id, String nome, Integer duracaoMinuto, LocalDate dataLancamento, Classificacao classificacao,
+                 Roteiro roteiro, Diretor diretor, List<Distribuidora> distribuidora, List<Produtora> produtora,
+                 List<Patrocinador> patrocinador) {
+        this.id = id;
+        this.nome = nome;
+        this.duracaoMinuto = duracaoMinuto;
+        this.dataLancamento = dataLancamento;
+        this.classificacao = classificacao;
+        this.roteiro = roteiro;
+        this.diretor = diretor;
+        this.distribuidora = distribuidora;
+        this.produtora = produtora;
+        this.patrocinador = patrocinador;
+    }
 
-	public void setClassificacao(Classificacao classificacao) {
-		this.classificacao = classificacao;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public Roteiro getRoteiro() {
-		return roteiro;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setRoteiro(Roteiro roteiro) {
-		this.roteiro = roteiro;
-	}
+    public String getNome() {
+        return nome;
+    }
 
-	public Diretor getDiretor() {
-		return diretor;
-	}
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-	public void setDiretor(Diretor diretor) {
-		this.diretor = diretor;
-	}
+    public Integer getDuracaoMinuto() {
+        return duracaoMinuto;
+    }
 
-	public Distribuidora getDistribuidora() {
-		return distribuidora;
-	}
+    public void setDuracaoMinuto(Integer duracaoMinuto) {
+        this.duracaoMinuto = duracaoMinuto;
+    }
 
-	public void setDistribuidora(Distribuidora distribuidora) {
-		this.distribuidora = distribuidora;
-	}
+    public LocalDate getDataLancamento() {
+        return dataLancamento;
+    }
 
-	public List<Produtora> getProdutora() {
-		return produtora;
-	}
+    public void setDataLancamento(LocalDate dataLancamento) {
+        this.dataLancamento = dataLancamento;
+    }
 
-	public void setProdutora(List<Produtora> produtora) {
-		this.produtora = produtora;
-	}
+    public Classificacao getClassificacao() {
+        return classificacao;
+    }
 
-	public List<Patrocinador> getPatrocinador() {
-		return patrocinador;
-	}
+    public void setClassificacao(Classificacao classificacao) {
+        this.classificacao = classificacao;
+    }
 
-	public void setPatrocinador(List<Patrocinador> patrocinador) {
-		this.patrocinador = patrocinador;
-	}
+    public Roteiro getRoteiro() {
+        return roteiro;
+    }
 
+    public void setRoteiro(Roteiro roteiro) {
+        this.roteiro = roteiro;
+    }
+
+    public Diretor getDiretor() {
+        return diretor;
+    }
+
+    public void setDiretor(Diretor diretor) {
+        this.diretor = diretor;
+    }
+
+    public List<Distribuidora> getDistribuidora() {
+        return distribuidora;
+    }
+
+    public void setDistribuidora(List<Distribuidora> distribuidora) {
+        this.distribuidora = distribuidora;
+    }
+
+    public List<Produtora> getProdutora() {
+        return produtora;
+    }
+
+    public void setProdutora(List<Produtora> produtora) {
+        this.produtora = produtora;
+    }
+
+    public List<Patrocinador> getPatrocinador() {
+        return patrocinador;
+    }
+
+    public void setPatrocinador(List<Patrocinador> patrocinador) {
+        this.patrocinador = patrocinador;
+    }
 }

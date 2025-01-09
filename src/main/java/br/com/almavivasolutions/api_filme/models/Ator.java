@@ -5,17 +5,17 @@ import java.util.List;
 
 
 public class Ator {
-	private String nome;
+	private String nomeArtistico;
 	private LocalDate dataNascimento;
 	private List<String> filmesAtuados;
 	private Double cacheMedioPorFilme;
 
-	public String getNome() {
-		return nome;
+	public String getNomeArtistico() {
+		return nomeArtistico;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNomeArtistico(String nomeArtistico) {
+		this.nomeArtistico = nomeArtistico;
 	}
 
 	public LocalDate getDataNascimento() {
@@ -41,4 +41,5 @@ public class Ator {
 	public void setFilmesAtuados(List<String> filmesAtuados) {
 		this.filmesAtuados = filmesAtuados;
 	}
+
 }
