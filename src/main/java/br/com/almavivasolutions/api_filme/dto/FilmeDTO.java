@@ -17,7 +17,7 @@ public record FilmeDTO(
 		Classificacao classificacao,
 		Roteiro roteiro, 
 		Diretor diretor, 
-		Distribuidora distribuidora, 
+		List<Distribuidora> distribuidora, 
 		List<Produtora> produtora,
 		List<Patrocinador> patrocinador) {
 

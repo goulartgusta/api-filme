@@ -1,5 +1,8 @@
 package br.com.almavivasolutions.api_filme.models;
 
+import jakarta.persistence.Table;
+
+@Table(name = "TB_CLASSIFICACAO")
 public class Classificacao {
 	private String paisOrigem;
 	private String nomeClassificacao;

@@ -2,6 +2,9 @@ package br.com.almavivasolutions.api_filme.models;
 
 import java.util.List;
 
+import jakarta.persistence.Table;
+
+@Table(name = "TB_ROTEIRO")
 public class Roteiro {
 	private String titulo;
 	private String enredo;

@@ -2,6 +2,9 @@ package br.com.almavivasolutions.api_filme.models;
 
 import java.util.ArrayList;
 
+import jakarta.persistence.Table;
+
+@Table(name = "TB_DIRETOR")
 public class Diretor {
 	private String nome;
 	private String Especialidade;

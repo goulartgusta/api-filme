@@ -3,6 +3,9 @@ package br.com.almavivasolutions.api_filme.models;
 import java.time.LocalDate;
 import java.util.List;
 
+import jakarta.persistence.Table;
+
+@Table(name = "TB_DISTRIBUIDORA")
 public class Distribuidora {
 	private String nome;
 	private List<String> filmesDistribuidos;

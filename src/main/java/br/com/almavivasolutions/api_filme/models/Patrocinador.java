@@ -1,5 +1,8 @@
 package br.com.almavivasolutions.api_filme.models;
 
+import jakarta.persistence.Table;
+
+@Table(name = "TB_PATROCINADOR")
 public class Patrocinador {
 	private String nome;
 	private Double valorPatrocinado;

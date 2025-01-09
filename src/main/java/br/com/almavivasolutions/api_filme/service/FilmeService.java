@@ -7,9 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import br.com.almavivasolutions.api_filme.exception.FilmeValidator;
 import br.com.almavivasolutions.api_filme.models.Filme;
 import br.com.almavivasolutions.api_filme.utils.ApiLogger;
-import br.com.almavivasolutions.api_filme.validation.FilmeValidator;
 
 @Service
 public class FilmeService {

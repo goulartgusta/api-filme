@@ -35,17 +35,17 @@ public class FilmeController {
         return filmeservice.criarFilme(filme);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("pesquisar-filme/{id}")
     public ResponseEntity<Filme> buscarFilmePorId(@PathVariable Integer id) {
         return filmeservice.buscarPorId(id);
     }
 
-    @PatchMapping("/{id}")
+    @PatchMapping("atualizar-filme/{id}")
     public ResponseEntity<Filme> atualizarFilme(@PathVariable Integer id, @RequestBody Filme filmeAtualizado) {
         return filmeservice.atualizarFilme(id, filmeAtualizado);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("deletar-filme/{id}")
     public void deletarFilme(@PathVariable Integer id) {
         filmeservice.deletarFilme(id);
     }

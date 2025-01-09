@@ -2,6 +2,9 @@ package br.com.almavivasolutions.api_filme.models;
 
 import java.util.List;
 
+import jakarta.persistence.Table;
+
+@Table
 public class Personagem {
 	private String nome;
 	private String papel;

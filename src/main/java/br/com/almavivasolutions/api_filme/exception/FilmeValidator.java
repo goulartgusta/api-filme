@@ -1,4 +1,4 @@
-package br.com.almavivasolutions.api_filme.validation;
+package br.com.almavivasolutions.api_filme.exception;
 
 import br.com.almavivasolutions.api_filme.models.Filme;
 

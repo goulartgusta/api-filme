@@ -3,7 +3,9 @@ package br.com.almavivasolutions.api_filme.models;
 import java.time.LocalDate;
 import java.util.List;
 
+import jakarta.persistence.Table;
 
+@Table(name = "TB_ATOR")
 public class Ator {
 	private String nome;
 	private LocalDate dataNascimento;

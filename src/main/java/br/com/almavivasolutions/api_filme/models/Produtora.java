@@ -2,6 +2,9 @@ package br.com.almavivasolutions.api_filme.models;
 
 import java.util.List;
 
+import jakarta.persistence.Table;
+
+@Table(name = "TB_PRODUTORA")
 public class Produtora {
 	private String nome;
 	private String paisOrigem;
